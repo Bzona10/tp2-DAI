@@ -13,8 +13,7 @@ export default function SocketPage() {
 
         if (socket) {
 
-            console.log("Socket disponible:", socket);
-
+            console.log("Web Socket Conectado");
 
             socket.on("pingAll", (data) => {
 
